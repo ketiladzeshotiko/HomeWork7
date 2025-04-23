@@ -1,0 +1,41 @@
+.bg-image{
+    background-image: url('../images/Forest.jpg');
+    width: 100%;
+    height: 830px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.clouds{
+    width: 190px;
+    height: 120px;
+    position: absolute;
+    animation: movecloud 22s ease-in infinite  alternate;
+    top: 100px;
+}
+@keyframes movecloud {
+    from{right: 0px;}
+    to{right: 1262px;}
+}
+.birds{
+    width: 300px;
+    height: 234px;
+    position: absolute;
+    top: 120px;
+    animation: movebirds 17s ease-in infinite 1s alternate;
+}
+@keyframes movebirds{
+    from{left: 0px;}
+    to{left: 1362px;}
+}
+.sun{
+    width: 120px;
+    height: 150px;
+    position: absolute;
+    animation: movesun 11s infinite alternate ;
+}
+@keyframes movesun {
+    from{left: 430px;}
+    to{left: 362px;}
+}

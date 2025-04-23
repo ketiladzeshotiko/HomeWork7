@@ -39,3 +39,15 @@
     from{left: 430px;}
     to{left: 362px;}
 }
+.fox {
+    margin-top: 500px;
+    margin-left: 120px;
+    width: 100px;
+    height: 100px;
+}
+.fox:hover{
+width: 140px;
+height: 140px;
+transform: rotate(90deg);
+
+}
